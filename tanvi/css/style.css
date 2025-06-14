@@ -1,0 +1,144 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background: linear-gradient(to right, #fceabb, #f8b500);
+        color: #333;
+        padding: 20px;
+    }
+
+    header {
+        text-align: center;
+        margin-bottom: 30px;
+        background-color: #fff3cd;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+        color: #c0392b;
+    }
+
+    header a button {
+        margin: 5px;
+        padding: 10px 20px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 30px;
+        background: #ff6f61;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    header a button:hover {
+        background: #e74c3c;
+    }
+
+    main {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        max-width: 800px;
+        margin: auto;
+    }
+
+    section {
+        margin-bottom: 40px;
+    }
+
+    section h1 {
+        font-size: 2rem;
+        color: #2c3e50;
+        margin-bottom: 10px;
+    }
+
+    section p {
+        font-size: 1.1rem;
+        margin: 8px 0;
+        line-height: 1.6;
+    }
+
+    section a {
+        color: #2980b9;
+        text-decoration: none;
+    }
+
+    section a:hover {
+        text-decoration: underline;
+    }
+
+    ol {
+        padding-left: 20px;
+    }
+
+    ol li {
+        font-size: 1.1rem;
+        margin-bottom: 6px;
+    }
+
+    form {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        padding: 10px;
+        font-size: 1rem;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+        margin-right: 6px;
+    }
+
+    button[type="submit"] {
+        width: fit-content;
+        background-color: #27ae60;
+        color: white;
+        padding: 10px 20px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #1e8449;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 40px;
+        padding: 15px;
+        background-color: #f7f7f7;
+        border-top: 2px solid #ddd;
+        border-radius: 8px;
+    }
+
+    footer h4 {
+        color: #7f8c8d;
+    }
+
+    hr {
+        border: none;
+        border-top: 1px solid #ccc;
+        margin: 30px 0;
+    }
+
